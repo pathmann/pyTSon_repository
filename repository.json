@@ -1,0 +1,47 @@
+[
+    {
+        "name": "answercontacts",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "Autoanswer contact status (friend, neutral, blocked)",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/answercontacts.py",
+        "dependencies": [],
+    },
+    {
+        "name": "autopokeback",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "Ignore pokes and automatically poke back",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/autopoke.py",
+        "dependencies": [],
+    },
+    {
+        "name": "AutoReplyAway",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "This plugin autoreplies if you are away. It also shows one way to create ui-configurable scripts.",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/autoreply.py",
+        "dependencies": [],
+    },
+    {
+        "name": "processCommandTest",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "This plugin shows how to use commands, run \"/py pt greet\" or \"/py pt time\"",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/cmdtest.py",
+        "dependencies": [],
+    },
+    {
+        "name": "tweakui",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/tweakui.py",
+        "dependencies": [],
+    }
+]
