@@ -51,7 +51,7 @@
         "apiVersion": "21",
         "description": "This is just a test to test the repository",
         "url": "https://github.com/pathmann/pyTSon_repository/blob/master/testrep.py",
-        "dependencies": [ts3, requests]
+        "dependencies": ["ts3", "requests"]
     },
     {
         "name": "testscript2",
