@@ -43,5 +43,23 @@
         "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
         "url": "https://github.com/pathmann/pyTSon_repository/blob/master/tweakui.py",
         "dependencies": []
+    },
+    {
+        "name": "testscript",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "This is just a test to test the repository",
+        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/testrep.py",
+        "dependencies": [ts3, requests]
+    },
+    {
+        "name": "testscript2",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0",
+        "apiVersion": "21",
+        "description": "This is just a second test to test the repository",
+        "url": "https://pytson.4qt.de/testscriptbundle.zip",
+        "dependencies": []
     }
 ]
