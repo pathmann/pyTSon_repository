@@ -5,8 +5,8 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Autoanswer contact status (friend, neutral, blocked)",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/answercontacts.py",
-        "dependencies": []
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/answercontacts.py",
+        "dependencies": {},
     },
     {
         "name": "autopokeback",
@@ -14,8 +14,8 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Ignore pokes and automatically poke back",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/autopoke.py",
-        "dependencies": []
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/autopoke.py",
+        "dependencies": {},
     },
     {
         "name": "AutoReplyAway",
@@ -23,8 +23,8 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This plugin autoreplies if you are away. It also shows one way to create ui-configurable scripts.",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/autoreply.py",
-        "dependencies": []
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/autoreply.py",
+        "dependencies": {},
     },
     {
         "name": "processCommandTest",
@@ -32,8 +32,8 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This plugin shows how to use commands, run \"/py pt greet\" or \"/py pt time\"",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/cmdtest.py",
-        "dependencies": []
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/cmdtest.py",
+        "dependencies": {},
     },
     {
         "name": "tweakui",
@@ -41,8 +41,8 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/tweakui.py",
-        "dependencies": []
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/tweakui.py",
+        "dependencies": {},
     },
     {
         "name": "testscript",
@@ -50,8 +50,14 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This is just a test to test the repository",
-        "url": "https://github.com/pathmann/pyTSon_repository/blob/master/testrep.py",
-        "dependencies": ["ts3", "requests"]
+        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/testrep.py",
+        "dependencies": {
+            "Linux-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
+            "Linux-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
+            "Windows-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
+            "Windows-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
+            "Mac": ["ts3==1.0.4", "requests", "Pillow", "pip"],
+        },
     },
     {
         "name": "testscript2",
@@ -60,6 +66,6 @@
         "apiVersion": "21",
         "description": "This is just a second test to test the repository",
         "url": "https://pytson.4qt.de/testscriptbundle.zip",
-        "dependencies": []
+        "dependencies": {},
     }
 ]
