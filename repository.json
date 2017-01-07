@@ -56,8 +56,8 @@
             "Linux-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
             "Windows-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
             "Windows-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-            "Mac": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-        },
+            "Mac": ["ts3==1.0.4", "requests", "Pillow", "pip"]
+        }
     },
     {
         "name": "testscript2",
