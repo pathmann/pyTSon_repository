@@ -2,7 +2,7 @@
     {
         "name": "answercontacts",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "Autoanswer contact status (friend, neutral, blocked)",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/answercontacts.py",
@@ -11,7 +11,7 @@
     {
         "name": "autopokeback",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "Ignore pokes and automatically poke back",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/autopoke.py",
@@ -20,7 +20,7 @@
     {
         "name": "AutoReplyAway",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "This plugin autoreplies if you are away. It also shows one way to create ui-configurable scripts.",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/autoreply.py",
@@ -29,7 +29,7 @@
     {
         "name": "processCommandTest",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "This plugin shows how to use commands, run \"/py pt greet\" or \"/py pt time\"",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/cmdtest.py",
@@ -38,34 +38,19 @@
     {
         "name": "tweakui",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/tweakui.py",
         "dependencies": null
     },
     {
-        "name": "testscript",
+        "name": "g15",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
+        "version": "1.0.1",
         "apiVersion": "21",
-        "description": "This is just a test to test the repository",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/testrep.py",
-        "dependencies": {
-            "Linux-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-            "Linux-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-            "Windows-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-            "Windows-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
-            "Mac": ["ts3==1.0.4", "requests", "Pillow", "pip"]
-        }
-    },
-    {
-        "name": "testscript2",
-        "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0",
-        "apiVersion": "21",
-        "description": "This is just a second test to test the repository",
-        "url": "https://pytson.4qt.de/testscriptbundle.zip",
+        "description": "This plugin displays information on your Logitech G15 keyboard. Supported platform is linux only, you need to run g15daemon",
+        "url": "https://pytson.4qt.de/pytson_g15_1.0.1.zip",
         "dependencies": null
     }
 ]

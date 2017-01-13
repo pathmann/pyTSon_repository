@@ -6,7 +6,7 @@ from PythonQt.QtCore import QTimer, Qt
 class tweakui(ts3plugin):
     name = "tweakui"
     requestAutoload = False
-    version = "1.0"
+    version = "1.0.1"
     apiVersion = 21
     author = "Thomas \"PLuS\" Pathmann"
     description = "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!"
