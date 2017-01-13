@@ -5,7 +5,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Autoanswer contact status (friend, neutral, blocked)",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/answercontacts.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/answercontacts.py",
         "dependencies": null
     },
     {
@@ -14,7 +14,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Ignore pokes and automatically poke back",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/autopoke.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/autopoke.py",
         "dependencies": null
     },
     {
@@ -23,7 +23,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This plugin autoreplies if you are away. It also shows one way to create ui-configurable scripts.",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/autoreply.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/autoreply.py",
         "dependencies": null
     },
     {
@@ -32,7 +32,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This plugin shows how to use commands, run \"/py pt greet\" or \"/py pt time\"",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/cmdtest.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/cmdtest.py",
         "dependencies": null
     },
     {
@@ -41,7 +41,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/tweakui.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/tweakui.py",
         "dependencies": null
     },
     {
@@ -50,7 +50,7 @@
         "version": "1.0",
         "apiVersion": "21",
         "description": "This is just a test to test the repository",
-        "url": "https://raw.githubusercontent.com/pathmann/pyTSon_repository/master/testrep.py",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/testrep.py",
         "dependencies": {
             "Linux-64bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
             "Linux-32bit": ["ts3==1.0.4", "requests", "Pillow", "pip"],
