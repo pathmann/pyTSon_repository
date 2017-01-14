@@ -52,5 +52,23 @@
         "description": "This plugin displays information on your Logitech G15 keyboard. Supported platform is linux only, you need to run g15daemon",
         "url": "https://pytson.4qt.de/pytson_g15_1.0.1.zip",
         "dependencies": null
+    },
+    {
+        "name": "AutoChannelChatTab",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.0",
+        "apiVersion": "21",
+        "description": "Automatically activates the channel chat (tabindex 1, so if you change order, it won't work as expected) tab when the server connection tab is changed",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/autochannelchattab.py",
+        "dependencies": null
+    },
+    {
+        "name": "widgetinfo",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.1",
+        "apiVersion": "21",
+        "description": "Show information of the client's ui elements",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/master/widgetinfo.py",
+        "dependencies": null
     }
 ]
