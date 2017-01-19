@@ -64,5 +64,13 @@
         "description": "Show information of the client's ui elements",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/widgetinfo.py",
         "dependencies": null
+    },
+    {
+        "name": "ipcplugin",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.1",
+        "apiVersion": "21",
+        "description": "This is a plugin used for interprocess communication. It broadcasts events to clients and can receive commands to execute.",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-19/ipcplugin.py"
     }
 ]
