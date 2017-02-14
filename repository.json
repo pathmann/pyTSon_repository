@@ -51,10 +51,10 @@
     {
         "name": "AutoChannelChatTab",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "apiVersion": "21",
         "description": "Automatically activates the channel chat (tabindex 1, so if you change order, it won't work as expected) tab when the server connection tab is changed",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/autochannelchattab.py"
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-02-15/autochannelchattab.py"
     },
     {
         "name": "widgetinfo",
