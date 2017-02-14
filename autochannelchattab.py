@@ -37,18 +37,19 @@ class autoChannelChatTab(ts3plugin):
             process = True
 
         if process and not hasattr(self, "splitter"):
+            process = False
             for c in self.main.children():
                 if type(c) is QSplitter:
                     self.splitter = c
+                    process = True
                     break
 
-            if not hasattr(self, "splitter"):
-                process = False
-
         if process and (not hasattr(self, "chat")):
+            process = False
             for c in self.splitter.children():
                 if c.objectName == "MainWindowChatWidget":
                     self.chat = c
+                    process = True
 
         if process and not self.chattab:
             for c in self.chat.children():
