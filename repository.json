@@ -42,7 +42,7 @@
     {
         "name": "g15",
         "author": "Thomas \"PLuS\" Pathmann",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "apiVersion": "21",
         "description": "This plugin displays information on your Logitech G15 keyboard. Supported platform is linux only, you need to run g15daemon",
         "url": "https://github.com/pathmann/pyTSon_g15/archive/1.0.2.zip",
