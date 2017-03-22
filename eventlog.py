@@ -150,6 +150,7 @@ class EventlogDialog(QDialog):
         self.proxy = QSortFilterProxyModel(self)
         self.proxy.setFilterRole(Qt.UserRole)
         self.proxy.setSourceModel(self.model)
+        self.proxy.sortCaseSensitivity(Qt.CaseInsensitive)
 
         self.tree = QTreeView(self)
         self.tree.header().hide()
