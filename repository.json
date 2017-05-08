@@ -80,5 +80,23 @@
         "apiVersion": "21",
         "description": "This plugin shows all available events in a log. Might be helpfull for plugin deveolopers.",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-21/eventlog.py"
+    },
+    {
+        "name": "repotest1",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.0",
+        "apiVersion": "21",
+        "description": "This plugin is for testing purposes",
+        "url": "https://rawgit.com/pathmann/pyTSon_repository/archive/test.zip",
+        "prefix": ["repotest1"]
+    },
+    {
+        "name": "repotest2",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.0",
+        "apiVersion": "21",
+        "description": "This plugin is also for testing purposes",
+        "url": "https://rawgit.com/pathmann/pyTSon_repository/archive/test.zip",
+        "prefix": ["repotest2", "files"]
     }
 ]
