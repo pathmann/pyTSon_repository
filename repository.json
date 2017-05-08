@@ -87,7 +87,7 @@
         "version": "1.0.0",
         "apiVersion": "21",
         "description": "This plugin is for testing purposes",
-        "url": "https://rawgit.com/pathmann/pyTSon_repository/archive/test.zip",
+        "url": "https://github.com/pathmann/pyTSon_repository/archive/test.zip",
         "prefix": ["repotest1"]
     },
     {
@@ -96,7 +96,7 @@
         "version": "1.0.0",
         "apiVersion": "21",
         "description": "This plugin is also for testing purposes",
-        "url": "https://rawgit.com/pathmann/pyTSon_repository/archive/test.zip",
+        "url": "https://github.com/pathmann/pyTSon_repository/archive/test.zip",
         "prefix": ["repotest2", "files"]
     }
 ]
