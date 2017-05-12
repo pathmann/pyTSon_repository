@@ -80,5 +80,13 @@
         "apiVersion": "21",
         "description": "This plugin shows all available events in a log. Might be helpfull for plugin deveolopers.",
         "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-21/eventlog.py"
+    },
+    {
+        "name": "multiselectmove",
+        "author": "Thomas \"PLuS\" Pathmann",
+        "version": "1.0.0",
+        "apiVersion": "21",
+        "description": "This plugin makes it possible to move multiple clients around per Multiselect. Just select two items with shift- or control-modifier pressed.",
+        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-05-13/multiselectmove.py"
     }
 ]
