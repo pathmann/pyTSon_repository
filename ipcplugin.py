@@ -30,6 +30,8 @@ class ipcdata(object):
             self.buf += len(obj).to_bytes(self.longlen, byteorder='big')
             for e in obj:
                 self.append(e)
+        elif obj is None:
+            self.buf += b'n'
         else:
             raise Exception("Unknown ipcdata type")
 
@@ -55,6 +57,8 @@ class ipcdata(object):
                 ret.append(self.read())
 
             return ret if t == "l" else tuple(ret)
+        elif t == "n":
+            return None
         else:
             raise Exception("Unknown ipcdata type")
 
