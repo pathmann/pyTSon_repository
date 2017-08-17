@@ -163,12 +163,12 @@ class ipcplugin(ts3plugin):
         data = ipcdata(init=buf)
         name = data.read()
 
-        if hasattr(ts3, name):
+        if hasattr(ts3lib, name):
             args = []
             while not data.atEnd():
                 args.append(data.read())
 
-            ret = getattr(ts3, name)(*args)
+            ret = getattr(ts3lib, name)(*args)
 
             if ret:
                 data = ipcdata(obj=ret)
@@ -324,4 +324,3 @@ client = myclient("/path/to/your/pluginpath/pyTSon/ipcsocket")
 #get client id of schid=1
 (err, myid) = client.functions.getClientID(1)
 """
-
