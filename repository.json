@@ -5,7 +5,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "Autoanswer contact status (friend, neutral, blocked)",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/answercontacts.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/answercontacts.py"
     },
     {
         "name": "autopokeback",
@@ -13,7 +13,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "Ignore pokes and automatically poke back",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/autopoke.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/autopoke.py"
     },
     {
         "name": "AutoReplyAway",
@@ -21,7 +21,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "This plugin autoreplies if you are away. It also shows one way to create ui-configurable scripts.",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/autoreply.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/autoreply.py"
     },
     {
         "name": "processCommandTest",
@@ -29,7 +29,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "This plugin shows how to use commands, run \"/py pt greet\" or \"/py pt time\"",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/cmdtest.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/cmdtest.py"
     },
     {
         "name": "tweakui",
@@ -37,7 +37,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "Tweak the client UI to use DockingWidgets, just to show possibilities of pyTSon in conjunction with PythonQt. There is no warranty!",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/tweakui.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/tweakui.py"
     },
     {
         "name": "g15",
@@ -54,7 +54,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "Automatically activates the channel chat (tabindex 1, so if you change order, it won't work as expected) tab when the server connection tab is changed",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-02-15/autochannelchattab.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-02-15/autochannelchattab.py"
     },
     {
         "name": "widgetinfo",
@@ -62,7 +62,7 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "Show information of the client's ui elements",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-14/widgetinfo.py",
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-14/widgetinfo.py",
         "dependencies": null
     },
     {
@@ -71,7 +71,7 @@
         "version": "1.0.2",
         "apiVersion": "21",
         "description": "This is a plugin used for interprocess communication. It broadcasts events to clients and can receive commands to execute.",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-08-17/ipcplugin.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-08-17/ipcplugin.py"
     },
     {
         "name": "eventlog",
@@ -79,7 +79,7 @@
         "version": "1.0.0",
         "apiVersion": "21",
         "description": "This plugin shows all available events in a log. Might be helpfull for plugin deveolopers.",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-01-21/eventlog.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-01-21/eventlog.py"
     },
     {
         "name": "multiselectmove",
@@ -87,6 +87,6 @@
         "version": "1.0.1",
         "apiVersion": "21",
         "description": "This plugin makes it possible to move multiple clients around per Multiselect. Just select two items with shift- or control-modifier pressed.",
-        "url": "https://cdn.rawgit.com/pathmann/pyTSon_repository/2017-05-20/multiselectmove.py"
+        "url": "https://cdn.jsdelivr.net/gh/pathmann/pyTSon_repository@2017-05-20/multiselectmove.py"
     }
 ]
